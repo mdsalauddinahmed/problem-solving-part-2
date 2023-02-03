@@ -31,3 +31,22 @@ const fibonacci = (n) => {
   }
   const fibonaci =fibonacci(6)
   console.log(fibonaci)
+
+//   while loop
+function fi(n){
+    let a=0;
+    let b=1;
+    count =2;
+    while(count<=n){
+        let c =a+b;
+        a=b;
+        b=c;
+        console.log(c)
+        count++;
+          
+
+    }
+   
+}
+const wo =fi(8)
+console.log(wo);
